@@ -1,0 +1,388 @@
+# <kullaniciAdi> kullanıcı adı ve <sifre> şifresi ile giriş yap
+* "txtKullaniciAdi" elemente <kullaniciAdi> yaz
+* "txtSifre" elemente <sifre> yaz
+* "btnGiris" elemente tıkla
+
+# <uyarı> uyarısının çıktığı kontrol edilir.
+//* "loader" li elementi invisible olana kadar bekle
+* "hataMesajı" elementi <uyarı> iceriyor mu?
+
+# Kullanıcıya ait bilgilerden eczane adının <eczaneismi> olduğu kurum kodunun <kurumkodu> olduğu kontrol edilir.
+* "txtSağÜstEczane" elementi <eczaneismi> iceriyor mu?
+* "txtSağÜstKurumKod" elementi <kurumkodu> iceriyor mu?
+
+# <SolMenü> menüsünden sigorta şirketi <sigortaşirketi> seçilerek sigortalı arama ekranı açılır
+* "SolBanner" li elementlerden <SolMenü> degerine esit olana tikla
+* <sigortaşirketi> elemente tıkla
+
+# Default olarak <tckn> seçiminin geldiği kontrol edilir ve <kimlikno> değeri ile sigortalı sorgulaması yapılır.
+* "KontrolTCKNDefault" elementi <tckn> iceriyor mu?
+* "txtTCKN" elemente <kimlikno> yaz
+* "btnGirilenKriterlerdeAra" elemente tıkla
+//* "KontrolSigNo" elementi var mı?
+* "btnBüyüteç" elemente tıkla
+//* "loader" li elementi invisible olana kadar bekle
+
+# Default olarak <tckn> seçiminin geldiği kontrol edilir ve <kimlikno> değeri ile sigortalı sorgulaması yapılır
+* "KontrolTCKNDefault" elementi <tckn> iceriyor mu?
+* "txtTCKN" elemente <kimlikno> yaz
+* "btnGirilenKriterlerdeAra" elemente tıkla
+//* "KontrolSigNo" elementi var mı?
+* "btnBüyüteç2" elemente tıkla
+//* "loader" li elementi invisible olana kadar bekle
+
+# Sigorta firması <sigortafirması1> olarak seçilir ve <kimlikNo1> değeri ile sigortalı sorgulaması yapılır.
+* "asağıOk" elemente tıkla
+* "KimlikNumaraları" li elementlerden <sigortafirması1> degerine esit olana tikla
+* "txtTCKN" elemente <kimlikNo1> yaz
+* "btnGirilenKriterlerdeAra" elemente tıkla
+//* "KontrolSigNo" elementi var mı?
+* "btnBüyüteç" elemente tıkla
+
+# Sigorta firması <sigortafirması1> olarak seçilir ve <kimlikNo1> değeri ile girilen kriterlerde arama yapılır.
+* "asağıOk" elemente tıkla
+* "KimlikNumaraları" li elementlerden <sigortafirması1> degerine esit olana tikla
+* "2" sn bekle
+* "txtTCKN" elemente <kimlikNo1> yaz
+* "btnGirilenKriterlerdeAra" elemente tıkla
+//* "loader" li elementi invisible olana kadar bekle
+
+# Popup ta <text> yazısının bulunduğunu kontrol edilir.
+* "Popup" elementi <text> iceriyor mu?
+* "btnKapat3" elemente tıkla
+
+# Popup ta <text2> yazısının bulunduğunu kontrol edilir
+* "hataMesajı" elementi <text2> iceriyor mu?
+* "btnkapat2tüm" elemente tıkla
+* "btnkapat2" elemente tıkla
+
+# Büyüteç butonuna tıklanarak bir sonraki ekrana geçilir.
+//* "KontrolSigNo" elementi var mı?
+* "btnBüyüteç" elemente tıkla
+
+# Reçete Giriş Ekranı'nın açıldığı görülür.
+* "KontrolReçetetipi" elementi "Reçete Giriş Ekranı" iceriyor mu?
+
+# Reçete giriş ekranından reçete tipi <reçetetipi> seçilir.
+* "DropDownReçeteTipi" elemente tıkla
+* "lstReçeteTipi" li elementlerden <reçetetipi> degerine esit olana tikla
+* "2" sn bekle
+
+# Reçete tarihi bugünün tarihinden <gün> gün kadar uzaklıktaki tarih yazılarak devam edilir.
+* "ReçeteTarihi" elementini temizle
+* "ReçeteTarihi" li elementin tarihine <gün> gün ekle
+* "Takvimikon" elemente tıkla
+* "btnDevamet" elemente tıkla
+* "KontrolTanıKoduEkranı" elementi var mı?
+//* "loader" li elementi invisible olana kadar bekle
+
+# <hataMesajı1> uyarısının çıktığı görülür.
+* "hataMesajı" elementi <hataMesajı1> iceriyor mu?
+* "btnUyarıKapat" elemente tıkla
+
+# Popup kapatılır.
+* "btnUyarıKapat" elemente tıkla
+
+# Doktor adı <doktoradı>, doktor branşı <branş> ve akademik kariyer <akademikkariyer> olarak seçilir.
+* "textDoktorAdı" elemente <doktoradı> yaz
+* "DropdownDoktorBranşı" elemente tıkla
+* "1" sn bekle
+* "lstDoktorBranşı" li elementlerden <branş> degerine esit olana tikla
+* "DropdownAkademikKariyer" elemente tıkla
+* "1" sn bekle
+* "lstAkademikKariyer" li elementlerden <akademikkariyer> degerine esit olana tikla
+* "tndevamet" elemente tıkla
+
+# Doktor branşı <branş1> ve akademik kariyer <akademikkariyer1> olarak seçilir.
+* "DropdownDoktorBranşı" elemente tıkla
+* "lstDoktorBranşı" li elementlerden <branş1> degerine esit olana tikla
+* "DropdownAkademikKariyer" elemente tıkla
+* "lstAkademikKariyer" li elementlerden <akademikkariyer1> degerine esit olana tikla
+* "tndevamet" elemente tıkla
+//* "loader" li elementi invisible olana kadar bekle
+
+# Doktor adı <doktoradı1> ve akademik kariyer <akademikkariyer2> olarak seçilir.
+* "textDoktorAdı" elemente <doktoradı1> yaz
+* "DropdownAkademikKariyer" elemente tıkla
+* "lstAkademikKariyer" li elementlerden <akademikkariyer2> degerine esit olana tikla
+* "tndevamet" elemente tıkla
+//* "loader" li elementi invisible olana kadar bekle
+
+# Doktor adı <doktoradı> ve doktor branşı <branş>  olarak seçilir.
+* "textDoktorAdı" elemente <doktoradı> yaz
+* "DropdownDoktorBranşı" elemente tıkla
+* "1" sn bekle
+* "lstDoktorBranşı" li elementlerden <branş> degerine esit olana tikla
+* "2" sn bekle
+* "tndevamet" elemente tıkla
+//* "loader" li elementi invisible olana kadar bekle
+
+# Tanı açıklaması alanına <tanıacıklama> ICD 10 Kodu alanına <kod> yazılır ve oluşan tablodan <kodseç> seçilerek devam butonuna basılır.
+* "txtTanıAçıklaması" elemente <tanıacıklama> yaz
+* "txtICDOnKodu" elemente <kod> yaz
+* "btnICDOnAra" elemente tıkla
+* "lstICDOn" li elementleri bul ve <kodseç> degerine esit olanın yanındaki checkbox a tıkla
+* "KontrolTanıKoduAçıklaması" elementi var mı?
+* "btnDevamEt" elemente tıkla
+* "KontrolİlaçBilgiEkranı" elementi var mı?
+
+# İlaç bilgileri alanında işlem tipi <İlaçİşlemleri>, ilaç ekleme türü <ilaçeklemetürü> seçilerek barkod bilgisi <barkodno> olarak yazılır.
+* "LstİşlemTipiIlacIslemleri" elemente tıkla
+* "DropdownİlaçEklemeTürü" elemente tıkla
+* "LstİlaçEklemeTürü" li elementlerden <ilaçeklemetürü> degerine esit olana tikla
+* "txtilaçAdıBarkod" elemente <barkodno> yaz
+
+
+# İlaç bilgileri alanında işlem tipi <İlaçİşlemleri> olan seçilir
+* "LstİşlemTipiMajistralIlacIslemleri" elemente tıkla
+//* "loader" li elementi invisible olana kadar bekle
+
+# Sigorta kullanım alanı default değeri olarak seçilir ve ilaç ara butonuna basılır.
+* "btnGirKriİlaçAra" elemente tıkla
+* "btnProvizyonOluştur" elementi var mı?
+
+# Listelenen ilacın kullanım şekli bilgisi <kullanımşekli> olarak seçilir ve provizyon oluştur butonuna tıklanır.
+* "2" sn bekle
+* "kullanımseklioku" elemente tıkla
+* "2" sn bekle
+* "kullanımseklioku" elemente tıkla
+* "2" sn bekle
+* "LstKullanımŞekli" li elementlerden <kullanımşekli> degerini içerene tikla
+* "btnProvizyonOluştur" elementi var mı?
+* "2" saniye bekle
+* "btnProvizyonOluştur" elemente tıkla
+//* "loader" li elementi invisible olana kadar bekle
+
+# Provizyon oluştur butonuna tıklanır.
+* "btnProvizyonOluştur2" elemente tıkla
+//* "loader" li elementi invisible olana kadar bekle
+
+# Provizyon form döküm sayfası kapatılır.
+* "proFormDokümü" elementi var mı?
+* "btnproiptal" elemente tıkla
+
+# <Faturabilgi> butonuna tıklanır.
+* "SolBanner" li elementlerden <Faturabilgi> degerine esit olana tikla
+
+# Olay Tarihi Başlangıç alanı <baştar> şeklinde, Olay Tarihi Bitiş alanı <bittar> şeklinde doldurulur.
+* "txtolaybaştar" li elementin tarihine <baştar> gün ekle
+* "txtolaybittar" li elementin tarihine <bittar> gün ekle
+
+# Olay Başlangıç tarihi alanı <baştar> şeklinde, Olay Bitiş tarihi alanına bugünün tarihi doldurulur.
+* "txtolaybaştar" elemente <baştar> yaz
+* "txtolaybittar" li elemente bugünün tarihini yaz
+
+# Olay Başlangıç tarihi alanı <baştar> şeklinde, Olay Bitiş tarihi alanı <bittar> şeklinde doldurulur.
+* "txtolaybaştar" elemente <baştar> yaz
+* "txtolaybittar" elemente <bittar> yaz
+
+
+
+# Tazminat Kontrol Liste Ekranının açıldığı görülür.
+* "btnTanzimatKontrolEkranı" elementi "Tazminat Kontrol Liste Ekranı" iceriyor mu?
+
+# Ara butonuna tıklanır.
+* "btnGirilenKriterlerdeAra" elemente tıkla
+* "kontrolbiradettablo" elementi var mı?
+* "2" sn bekle
+
+# Ara butonuna tıklanır..
+* "btnGirilenKriterlerdeAra" elemente tıkla
+* "kontroltablodadeğervargibi" elementi var mı?
+
+# Ara butonuna tıklanır...
+* "btnGirilenKriterlerdeAra" elemente tıkla
+//* "loader" li elementi invisible olana kadar bekle
+
+# Ara butonuna tıklanır
+* "btnGirilenKriterlerdeAra" elemente tıkla
+* "kontroltablodadeğervarmı" elementi var mı?
+
+# Fatura bilgilerinin listelendiği ve xlsx butonunun çıktığı görülür.
+* "kontrolfatbilgileri" elementi var mı?
+* "kontrolxlsx" elementi var mı?
+
+# XLSX butonuna tıklanır ve fatura dökümünün bilgisayara indiği kontrol edilir.
+* "kontrolxlsx" elemente tıkla
+* "RadGridExport.xls" isimli dosya indi mi?
+
+# Listenin en üst sırasında bulunan kaydın Fatura no alanına <attrtext> veri girişi yapılır.
+* "txtFaturoNoBirincisi" li elementin value attributesi <attrtext> yaz
+* "2" sn bekle
+
+# Listenin ikinci sırasında bulunan kaydın Fatura no alanına <attrtext> veri girişi yapılır.
+* "İkinciProvizyonNo" li elementin value attributesi <attrtext> yaz
+* "1" sn bekle
+
+# Listenin en üst sırasında bulunan kaydın Fatura tarihi alanına <kaçgün> gün kadar uzaklıktaki tarih yazılır.
+* "txtFaturoTarihiBirincisi" elementini temizle
+* "txtFaturoTarihiBirincisi" li elementin tarihine <kaçgün> gün ekle
+
+# Listenin ikinci sırasında bulunan kaydın Fatura tarihi alanına <kaçıncıgün> gün kadar uzaklıktaki tarih yazılır.
+* "txtFaturoTarihiİkincisi" elementini temizle
+* "txtFaturoTarihiİkincisi" li elementin tarihine <kaçıncıgün> gün ekle
+* "1" sn bekle
+
+# Provizyon no alanı <ProvizyonNo> olarak kopyalanır.
+* "BirinciProvizyonNo" li elementin textini <ProvizyonNo> olarak kaydet
+
+# Dökümdeki provizyon no alanı <ProvizyonNo3> olarak kopyalanır.
+* "ProvizyonNumarası" li elementin textini <ProvizyonNo3> olarak kaydet
+//
+# Dökümdeki poliçe no alanı <PoliçeNo> olarak kopyalanır ve sayfa kapatılır.
+* "PoliçeNumarası" li elementin textini <PoliçeNo> olarak kaydet
+* "btnKapat4" elemente tıkla
+
+# Kopyalanan provizyon numarası aratılır ve değerler karşılaştırılır.
+* "btnProvizyonArama" elemente tıkla
+* "proNoAlanı" elemente provizyonNo yaz
+* "btnGirilenKriterlerdeAra" elemente tıkla
+* "2" sn bekle
+* "ProvizyonNumarası" elementi Provizyon No iceriyor mu?
+
+# Satır sonundaki güncelle butonuna tıklanır.
+* "BirinciGüncelle" elemente tıkla
+//* "loader" li elementi invisible olana kadar bekle
+
+# <İşlemBaşarılı> uyarı mesajının çıktığı görülür.
+* "kontrolPopupİşlemBaşarılı" elementi <İşlemBaşarılı> iceriyor mu?
+
+# Kapat butonuna tıklanır.
+* "btnKapat" elemente tıkla
+
+# Error Kapat butonuna tıklanır.
+* "btnKapatError" elemente tıkla
+
+# Toplu güncelle butonuna tıklanır.
+* "btnTopluGüncelle" elemente tıkla
+//* "loader" li elementi invisible olana kadar bekle
+
+# Toplu Güncelleme Uyarı Mesajı sütununda ilgili iki kalemde Güncelleme Başarılı Bir Şekilde Tamamlanmıştır mesajının olduğu kontrol edilir.
+* "kontroltopluGüncellemeBaşarılıBir" li elementin "value" attributesi "Güncelleme Başarılı Bir Şekilde Tamamlanmıştır" mi
+* "kontroltopluGüncellemeBaşarılıİki" li elementin "value" attributesi "Güncelleme Başarılı Bir Şekilde Tamamlanmıştır" mi
+
+# Provizyon Numarası alanı <ProvizyonNo2> şeklinde doldurulur.
+//* "loader" li elementi invisible olana kadar bekle
+* "proNoAlanı" elemente <ProvizyonNo2> yaz
+
+# İlgili provizyon numarasına ait tek bir kaydın listelendiği görülür.
+* "kontrolbiradettablo" elementi var mı?
+
+# Tutar Aralığı Seçiniz alanından <altıfaturalar> seçimi yapılır.
+* "tutraaralığıküçüktik" elemente tıkla
+* "listTutarSeçiniz" li elementlerden <altıfaturalar> degerine esit olana tikla
+
+# Kayıtların listelendiği ve xlsx butonunun çıktığı görülür.
+* "kontrolkayıtlist" elementi var mı?
+* "kontrolxlsx" elementi var mı?
+
+# Kayıtların listelendiği ve Ödenecek tutar sütunundaki kayıtların <miktar> TL altında olduğu görülür.
+* "listÖdenecekTutar" elementin <miktar> den küçük olduğunu kontrol et
+
+# Fatura tarihi ve fatura no bilgisi dolu kalem bulunur ve tablonun en sağındaki check box işaretlenmeye çalışılır.
+* "foyOlusturmaIlkCheckbox" elemente tıkla
+
+# Kayıtların listelendiği kontrol edilir
+* "kontrolkayıtlarınlistesi" elementi var mı?
+
+# Kayıtların listelendiği kontrol edilir.
+* "kontroltazkontlist" elementi var mı?
+
+# Föy numarası alanı <föyno> şeklinde doldurulur.
+* "txtföyno" elemente <föyno> yaz
+
+# Sigorta şirketlerinin logolarının geldiği görülür.
+* "AcıbademSigorta" elementi var mı?
+* "AkSigorta" elementi var mı?
+
+# Yeni sekmede PDF formatında kılavuzun açıldığı görülür.
+* Yeni açılan sayfaya geç
+* Sayfanın url i "https://ips-pre.sencard.com.tr/Documents/%C4%B0PS_Kullan%C4%B1mK%C4%B1lavuzu.pdf" mı?
+
+# Olay Tarihi Bitiş alanı bugüne <olaybittar> gün eklenecek şekilde doldurulur.
+* "txtolaybittar" li elementin tarihine <olaybittar> gün ekle
+
+# Ak sigorta seçimi yapılır.
+* "AkSigorta" elemente tıkla
+
+# Fiba Emeklilik seçimi yapılır.
+* "FibaEmeklilik" elemente tıkla
+
+# Aegon seçimi yapılır.
+* "AegonEmeklilikveHayat" elemente tıkla
+
+# Bupa Acıbadem Sigorta seçimi yapılır.
+* "AcıbademSigorta" elemente tıkla
+
+# Sigortalı TCKN bilgisi <sigortaıTCKN> olarak girilir.
+* "txtTCKN" elemente <sigortaıTCKN> yaz
+
+# Girilen Kriterlerde Ara butonuna tıklanır.
+* "btnICDOnAra" elemente tıkla
+//* "loader" li elementi invisible olana kadar bekle
+
+# Sigorta şirketi seçim ekranına yönlendirdiği görülür.
+* "KontrolSigortaŞirketiSeçimiYazısı" elementi var mı?
+
+# OTS Hastane Uygulaması butonuna tıklanır.
+* "btnOTSHasUyg" elemente tıkla
+
+# Otsweb linkine yönlendirdiği görülür.
+* Sayfanın url i "https://otsweb-pre.sencard.com.tr/" mı?
+
+# Güvenli Çıkış butonuna tıklanır.
+* "btnGüvenliÇıkış" elemente tıkla
+* "txtKullaniciAdi" elementi var mı?
+
+# <sn> saniye bekle
+* <sn> sn bekle
+
+# Majistral İlaç Ekle butonuna tıklanır
+* "majistralIlacEkleBtn" elemente tıkla
+//* "loader" li elementi invisible olana kadar bekle
+
+# Majistral İlaç Ekle Devam Et butonuna tıklanır
+* "majistralIlacEkleDevamEtBtn" elemente tıkla
+
+# Preparat Türleri listesinden <text> olan seçilir
+* "preparatTurleriListIcon" elemente tıkla
+* "preparatTurleriList" li elementlerden <text> degerine esit olana tikla
+
+
+# Ambalaj Türleri listesinden <text> olan seçilir
+* "ambalajTurleriListIcon" elemente tıkla
+* "ambalajTurleriList" li elementlerden <text> degerine esit olana tikla
+* "2" sn bekle
+
+# Alt Ambalaj Türleri listesinden <text> olan seçilir
+* "altAmbalajTurleriListIcon" elemente tıkla
+* "altAmbalajTurleriList" li elementlerden <text> degerine esit olana tikla
+
+# Ham Madde İçeriği Ekle butonuna tıklanır
+* "hamMaddeIcerigiEkleBtn" elemente tıkla
+
+# Ham Madde input alanına <text1> değeri yazılır ve açılan listede <text2> olana tıklanır
+* "hamMaddeInput" elemente <text1> yaz
+* "2" sn bekle
+//* "hamMaddeList" li elementlerden <text2> degerine esit olana tikla
+
+# Ham Madde İçeriği ilaç miktarı input alanına <text1> ve ilaç fiyat input alanına <text2> yazılır
+* "hamMaddeIlacMiktarInput" elemente <text1> yaz
+* "hamMaddeIlacFiyatInput" elemente <text2> yaz
+
+# Ham Madde İçeriği seçilen ham madde doğrultusunda majistral ilaç ekle butonuna tıklanır
+* "secilenHamMaddelerDogrultusundaIlacEkleBtn" elemente tıkla
+
+# Provizyon Kapat butonuna tıklanır
+* "btnKapat4" elemente tıkla
+
+# Fatura tarihi ve Fatura no bilgisi eksik kalem bulunur ve tablonun en sağındaki check boxın işaretlenemediği kontrol edilir.
+//* "faturatarihisutunilk" li elementin texti yok mu?
+//* "faturanosutunilk" li elementin texti yok mu?
+* "provizyontablocheckbox" li element tıklanabilir değil mi?
+
+# Eşdeğer İlaç listesindeki ilk veriye tıklanır
+* "esdegerilaclistilktik" elemente tıkla
+
+# Provizyon uyarı mesajı kapat butonuna tıklanır
+* "provizyonuyarimesajkapatbtn" elemente tıkla

@@ -1,0 +1,564 @@
+{
+  "txtKullaniciAdi": {
+    "type": "id",
+    "value": "ContentPlaceHolder1_txtUserName"
+  },
+  "txtSifre": {
+    "type": "id",
+    "value": "ContentPlaceHolder1_txtPassword"
+  },
+  "btnGiris": {
+    "type": "id",
+    "value": "ContentPlaceHolder1_btnEnter"
+  },
+  "hataMesajı": {
+    "type": "id",
+    "value": "lblModalBodyError"
+  },
+  "loader": {
+    "type": "css",
+    "value": ".loader"
+  },
+  "SolBanner": {
+    "type": "css",
+    "value": ".navigation.navigation-main.navigation-accordion>li>a>span"
+  },
+  "KontrolİlkEkran": {
+    "type": "css",
+    "value": "div.page-header.page-header-default>div.page-header-content>div>h5>span"
+  },
+  "KontrolKurumKodu": {
+    "type": "id",
+    "value": "lblHealthcenterDesc"
+  },
+  "LstSigortaŞirketiSeçimi": {
+    "type": "id",
+    "value": "lblUserDesc"
+  },
+  "KontrolEczaneAdı": {
+    "type": "id",
+    "value": "lblUserDesc"
+  },
+  "LstSigortaŞirSeçimi": {
+    "type": "css",
+    "value": "#dvInsCmpSel>div>div>div.panel-body>div>div>div>input"
+  },
+  "KontrolSigortaŞirketiSeçimiYazısı": {
+    "type": "css",
+    "value": "#dvInsCmpSel>div>div>div.asg-panel-title>span"
+  },
+  "DropdownTCKNveDiğerSeçenekler": {
+    "type": "css",
+    "value": "#ctl00_MainContent_drpCustomerNumberSearch_DropDown>div>ul>li"
+  },
+  "txtTCKN": {
+    "type": "id",
+    "value": "MainContent_txtCustomerNumberSearch"
+  },
+  "btnGirilenKriterlerdeAra": {
+    "type": "id",
+    "value": "MainContent_btnSearch"
+  },
+  "KontrolSigortalıBilgileri": {
+    "type": "id",
+    "value": "ctl00_MainContent_radGridCustomer"
+  },
+  "btnBüyüteç": {
+    "type": "id",
+    "value": "ctl00_MainContent_radGridCustomer_ctl00_ctl04_lnkBtnShow"
+  },
+  "btnBüyüteç2": {
+    "type": "id",
+    "value": "ctl00_MainContent_radGridCustomer_ctl00_ctl06_lnkBtnShow"
+  },
+  "KadroluveKadrosuzDr": {
+    "type": "css",
+    "value": "#Table9>tbody>tr:nth-child(6)>td>input"
+  },
+  "AcıbademSigorta": {
+    "type": "id",
+    "value": "MainContent_insCmp1"
+  },
+  "AkSigorta": {
+    "type": "id",
+    "value": "MainContent_insCmp2"
+  },
+  "AegonEmeklilikveHayat": {
+    "type": "id",
+    "value": "MainContent_insCmp3"
+  },
+  "FibaEmeklilik": {
+    "type": "id",
+    "value": "MainContent_insCmp153"
+  },
+  "KontrolTCKNDefault": {
+    "type": "css",
+    "value": "#ctl00_MainContent_drpCustomerNumberSearch>span>span.rddlFakeInput"
+  },
+  "KontrolSigNo": {
+    "type": "css",
+    "value": "#ctl00_MainContent_radGridCustomer_ctl00_Pager>tbody>tr>td>table>tbody>tr>td>div.rgWrap.rgInfoPart"
+  },
+  "Popup": {
+    "type": "id",
+    "value": "lblModalBodyInfo"
+  },
+  "btnKapat3": {
+    "type": "css",
+    "value": "#upModelInfo>div>div.mb-footer>button"
+  },
+  "KontrolReçetetipi": {
+    "type": "css",
+    "value": "#ctl00_MainContent_RadAjaxPanel1>div>div>div>span"
+  },
+  "lstReçeteTipi": {
+    "type": "css",
+    "value": "#ctl00_MainContent_drpRecipeType_DropDown>div>ul>li"
+  },
+  "DropDownReçeteTipi": {
+    "type": "id",
+    "value": "ctl00_MainContent_drpRecipeType"
+  },
+  "ReçeteTarihi": {
+    "type": "css",
+    "value": "#ctl00_MainContent_rdDateRecipe_dateInput"
+  },
+  "btnDevamet": {
+    "type": "css",
+    "value": "#ctl00_MainContent_RadWizardMedicine > ul.rwzNav > li:nth-child(3) > button"
+  },
+  "KontrolTanıKoduEkranı": {
+    "type": "css",
+    "value": "#ctl00_MainContent_RadWizardMedicine>ul>li>a>span.rwzText"
+  },
+  "Takvimikon": {
+    "type": "id",
+    "value": "ctl00_MainContent_rdDateRecipe_popupButton"
+  },
+  "textDoktorAdı": {
+    "type": "id",
+    "value": "MainContent_txtDoctorName"
+  },
+  "lstDoktorBranşı": {
+    "type": "css",
+    "value": "#ctl00_MainContent_drpDoctorBranch_DropDown>div>ul>li"
+  },
+  "DropdownDoktorBranşı": {
+    "type": "css",
+    "value": "#ctl00_MainContent_drpDoctorBranch"
+  },
+  "DropdownAkademikKariyer": {
+    "type": "css",
+    "value": "#ctl00_MainContent_drpDoctorAcademicCareer"
+  },
+  "lstAkademikKariyer": {
+    "type": "css",
+    "value": "#ctl00_MainContent_drpDoctorAcademicCareer_DropDown>div>ul>li"
+  },
+  "txtTanıAçıklaması": {
+    "type": "id",
+    "value": "MainContent_txtICD10Description"
+  },
+  "btnICDOnAra": {
+    "type": "id",
+    "value": "MainContent_btnSearch"
+  },
+  "lstICDOn": {
+    "type": "css",
+    "value": "#ctl00_MainContent_radGridICD10_ctl00>tbody>tr>td:nth-child(2)"
+  },
+  "txtICDOnKodu": {
+    "type": "id",
+    "value": "MainContent_txtICD10Code"
+  },
+  "KontrolTanıKoduAçık": {
+    "type": "css",
+    "value": "#ctl00_MainContent_rdGridIcd10Added_ctl00__0>td:nth-child(3)"
+  },
+  "btnDevamEt": {
+    "type": "css",
+    "value": "#ctl00_MainContent_RadWizardMedicine>div.rwzContentWrapper>ul>li:nth-child(3)>button"
+  },
+  "KontrolİlaçBilEkranı": {
+    "type": "css",
+    "value": "#ctl00_MainContent_RadWizardMedicine>div.rwzContentWrapper>ul>li:nth-child(2)>button>span"
+  },
+  "KontrolTanıKoduAçıklaması": {
+    "type": "css",
+    "value": "#ctl00_MainContent_rdGridIcd10Added_ctl00__0>td:nth-child(3)"
+  },
+  "KontrolİlaçBilgiEkranı": {
+    "type": "css",
+    "value": "#MainContent_RadWizardStepMedicine>div>div>div"
+  },
+  "LstİşlemTipi": {
+    "type": "css",
+    "value": "#MainContent_rdProvisionOperationType>tbody>tr>td>label"
+  },
+  "LstİşlemTipiIlacIslemleri": {
+    "type": "css",
+    "value": "input[id='MainContent_rdProvisionOperationType_0']"
+  },
+  "LstİşlemTipiMajistralIlacIslemleri": {
+    "type": "css",
+    "value": "input[id='MainContent_rdProvisionOperationType_1']"
+  },
+  "DropdownİlaçEklemeTürü": {
+    "type": "css",
+    "value": "#ctl00_MainContent_drpMedNameBarcodeKarekodSearch"
+  },
+  "LstİlaçEklemeTürü": {
+    "type": "css",
+    "value": "#ctl00_MainContent_drpMedNameBarcodeKarekodSearch_DropDown>div>ul>li"
+  },
+  "txtilaçAdıBarkod": {
+    "type": "id",
+    "value": "MainContent_txtMedicineNameBarcode"
+  },
+  "btnSGKKullanımAlanı": {
+    "type": "css",
+    "value": "#MainContent_rdSgkStatus>tbody>tr>td>label"
+  },
+  "btnGirKriİlaçAra": {
+    "type": "css",
+    "value": "#MainContent_btnSearchMedicine"
+  },
+  "Kontrolİlacınlistesi": {
+    "type": "id",
+    "value": "ctl00_MainContent_radGridMedicineAdded_ctl00__0"
+  },
+  "DropDownKullanımŞekli": {
+    "type": "css",
+    "value": "#ctl00_MainContent_radGridMedicineAdded_ctl00_ctl04_drpDrugUsageType"
+  },
+  "LstKullanımŞekli": {
+    "type": "css",
+    "value": "#ctl00_MainContent_radGridMedicineAdded_ctl00_ctl04_drpDrugUsageType_DropDown>div>ul>li"
+  },
+  "btnProvizyonOluştur": {
+    "type": "css",
+    "value": "#ctl00_MainContent_RadWizardMedicine > div.rwzContentWrapper > ul > li:nth-child(2) > button > span"
+  },
+  "btnProvizyonOluştur2": {
+    "type": "css",
+    "value": "#ctl00_MainContent_RadWizardMedicine > ul.rwzNav > li:nth-child(2) > button > span"
+  },
+  "KontrolProvizyonOluştu": {
+    "type": "id",
+    "value": "MainContent_btnPrintProvisionForm"
+  },
+  "tablovarmı": {
+    "type": "id",
+    "value": "ctl00_MainContent_radGridMedicineAdded"
+  },
+  "txtSağÜstEczane": {
+    "type": "id",
+    "value": "lblUserDesc"
+  },
+  "txtSağÜstKurumKod": {
+    "type": "id",
+    "value": "lblHealthcenterDesc"
+  },
+  "loginalanı": {
+    "type": "css",
+    "value": "#LoginForm>div"
+  },
+  "tndevamet": {
+    "type": "css",
+    "value": "#ctl00_MainContent_RadWizardMedicine > ul.rwzNav > li:nth-child(3) > button"
+  },
+  "btnproiptal": {
+    "type": "id",
+    "value": "MainContent_btnCancelClaim"
+  },
+  "kullanımseklioku": {
+    "type": "css",
+    "value": "#ctl00_MainContent_radGridMedicineAdded_ctl00_ctl04_drpDrugUsageType_Input"
+  },
+  "txtolaybaştar": {
+    "type": "css",
+    "value": "#ctl00_MainContent_rdDateEventDate1_dateInput"
+  },
+  "txtolaybittar": {
+    "type": "css",
+    "value": "#ctl00_MainContent_rdDateEventDate2_dateInput"
+  },
+  "kontrolfatbilgileri": {
+    "type": "css",
+    "value": "#ctl00_MainContent_dtaGrdClaimDetailInvoice_ctl00>tbody"
+  },
+  "kontrolxlsx": {
+    "type": "id",
+    "value": "MainContent_imgBtnExportToExcel"
+  },
+  "txtFaturoNoYeni": {
+    "type": "css",
+    "value": "#ctl00_MainContent_dtaGrdClaimDetailInvoice_ctl00>tbody>tr>td:nth-child(8)>input"
+  },
+  "txtFaturoNoBirincisi": {
+    "type": "css",
+    "value": "#ctl00_MainContent_dtaGrdClaimDetailInvoice_ctl00_ctl04_txtBNFInvoiceNumber"
+  },
+  "txtFaturoTarihiBirincisi": {
+    "type": "css",
+    "value": "#ctl00_MainContent_dtaGrdClaimDetailInvoice_ctl00_ctl04_txtBNFInvoiceDate"
+  },
+  "BirinciProvizyonNo": {
+    "type": "css",
+    "value": "#ctl00_MainContent_dtaGrdClaimDetailInvoice_ctl00__0>td:nth-child(2)"
+  },
+  "İkinciProvizyonNo": {
+    "type": "css",
+    "value": "#ctl00_MainContent_dtaGrdClaimDetailInvoice_ctl00_ctl06_txtBNFInvoiceNumber"
+  },
+  "txtFaturoTarihiİkincisi": {
+    "type": "css",
+    "value": "#ctl00_MainContent_dtaGrdClaimDetailInvoice_ctl00_ctl06_txtBNFInvoiceDate"
+  },
+  "BirinciGüncelle": {
+    "type": "id",
+    "value": "ctl00_MainContent_dtaGrdClaimDetailInvoice_ctl00_ctl04_lnkBtnUpdate"
+  },
+  "kontrolPopupİşlemBaşarılı": {
+    "type": "id",
+    "value": "lblModalTitleSuccess"
+  },
+  "btnKapat": {
+    "type": "css",
+    "value": "#upModelSuccess>div>div.mb-footer>button"
+  },
+  "btnKapatError": {
+    "type": "css",
+    "value": "#upModalError>div>div.mb-footer>button"
+  },
+  "btnTopluGüncelle": {
+    "type": "id",
+    "value": "MainContent_btnBatchUpdate"
+  },
+  "kontroltopluGüncellemeBaşarılıBir": {
+    "type": "id",
+    "value": "ctl00_MainContent_dtaGrdClaimDetailInvoice_ctl00_ctl04_txtWarningMessage"
+  },
+  "kontroltopluGüncellemeBaşarılıİki": {
+    "type": "id",
+    "value": "ctl00_MainContent_dtaGrdClaimDetailInvoice_ctl00_ctl06_txtWarningMessage"
+  },
+  "proNoAlanı": {
+    "type": "id",
+    "value": "MainContent_txtClaimId"
+  },
+  "kontrolbiradettablo": {
+    "type": "id",
+    "value": "MainContent_btnSearch"
+  },
+  "listTutarSeçiniz": {
+    "type": "css",
+    "value": "#ctl00_MainContent_drpInvoiceAmountFilter_DropDown>div>ul>li"
+  },
+  "kontrolkayıtlist": {
+    "type": "id",
+    "value": "ctl00_MainContent_dtaGrdClaimFolderList_ctl00"
+  },
+  "tutraaralığıküçüktik": {
+    "type": "css",
+    "value": "#ctl00_MainContent_drpInvoiceAmountFilter>span>span.rddlSelect>span"
+  },
+  "listÖdenecekTutar": {
+    "type": "css",
+    "value": "#ctl00_MainContent_dtaGrdClaimFolderList_ctl00>tbody>tr>td:nth-child(7)"
+  },
+  "listesigortalıno": {
+    "type": "css",
+    "value": "#ctl00_MainContent_dtaGrdClaimFolderList_ctl00>tbody>tr>td:nth-child(2)"
+  },
+  "sütunundörtyanı": {
+    "type": "xpath",
+    "value": "../td[7]"
+  },
+  "kontroltazkontlist": {
+    "type": "id",
+    "value": "ctl00_MainContent_dtaGrdClaimControlList_ctl00"
+  },
+  "txtföyno": {
+    "type": "id",
+    "value": "MainContent_txtFolderId"
+  },
+  "kontrolpdf": {
+    "type": "id",
+    "value": "plugin"
+  },
+  "kontrolkayıtlarınlistesi": {
+    "type": "id",
+    "value": "ctl00_MainContent_dtaGrdClaimFolderList_GridData"
+  },
+  "btnkapat2": {
+    "type": "css",
+    "value": "#upModalError>div>div.mb-footer>button"
+  },
+  "btnkapat2tüm": {
+    "type": "css",
+    "value": "#message-box-Error>div"
+  },
+  "btnOTSHasUyg": {
+    "type": "css",
+    "value": "#custom-bootstrap-menu>div>div>ul>li>a"
+  },
+  "btnGüvenliÇıkış": {
+    "type": "css",
+    "value": "#navbar-mobile>div>p:nth-child(2)>a"
+  },
+  "btnTanzimatKontrolEkranı": {
+    "type": "css",
+    "value": "#ctl00_MainContent_RadAjaxPanel1>div>div>div.asg-panel-title>span"
+  },
+  "kontroltablodadeğervarmı": {
+    "type": "id",
+    "value": "ctl00_MainContent_dtaGrdClaimControlList_ctl00__0"
+  },
+  "kontroltablodadeğervargibi": {
+    "type": "id",
+    "value": "ctl00_MainContent_dtaGrdClaimFolderList_ctl00__0"
+  },
+  "ProvizyonNumarası": {
+    "type": "css",
+    "value": "span[id='MainContent_lblClaimId']"
+  },
+  "PoliçeNumarası": {
+    "type": "css",
+    "value": "#MainContent_lblPolicyNumber"
+  },
+  "btnKapat4": {
+    "type": "id",
+    "value": "MainContent_btnClose"
+  },
+  "btnProvizyonArama": {
+    "type": "css",
+    "value": "#form1 > div.page-container > div > div.sidebar.sidebar-main.sidebar-default > div > div.sidebar-category.sidebar-category-visible > div > ul > li:nth-child(9) > a > span"
+  },
+  "KimlikNumaraları": {
+    "type": "css",
+    "value": "#ctl00_MainContent_drpCustomerNumberSearch_DropDown > div > ul > li.rddlItem.rddlItem"
+  },
+  "asağıOk": {
+    "type": "css",
+    "value": "#ctl00_MainContent_drpCustomerNumberSearch > span > span.rddlSelect > span"
+  },
+  "proFormDokümü": {
+    "type": "css",
+    "value": "#form1 > div.page-container > div > div.content-wrapper > div.content > div:nth-child(1) > div > div.panel-body > div:nth-child(2) > div > div > div > div > div"
+  },
+  "btnUyarıKapat": {
+    "type": "css",
+    "value": "#upModalError > div > div.mb-footer > button"
+  },
+  "foyOlusturmaIlkCheckbox": {
+    "type": "css",
+    "value": ".rgDataDiv tbody > tr:first-child input"
+  },
+  "foyOlusturmaIlkCheckboxParent": {
+    "type": "css",
+    "value": ".rgDataDiv tbody > tr:first-child"
+  },
+  "majistralIlacEkleBtn": {
+    "type": "css",
+    "value": "#MainContent_btnMixtureMedicine"
+  },
+  "majistralIlacEkleDevamEtBtn": {
+    "type": "css",
+    "value": ".rwzNext > .rwzText"
+  },
+  "preparatTurleriListIcon": {
+    "type": "css",
+    "value": "#MainContent_RadWizardStepPreparatType .rddlIcon"
+  },
+  "preparatTurleriList": {
+    "type": "xpath",
+    "value": "//div[@id='ctl00_MainContent_drpPreparationType_DropDown']//li"
+  },
+  "ambalajTurleriListIcon": {
+    "type": "css",
+    "value": "#MainContent_RadWizardStepAmbalajType .rddlIcon"
+  },
+  "ambalajTurleriList": {
+    "type": "xpath",
+    "value": "//div[@id='ctl00_MainContent_drpPackingType_DropDown']//li"
+  },
+  "altAmbalajTurleriListIcon": {
+    "type": "css",
+    "value": "#MainContent_divSubPacking .rddlIcon"
+  },
+  "altAmbalajTurleriList": {
+    "type": "xpath",
+    "value": "//div[@id='ctl00_MainContent_drpPackingSubType_DropDown']//li"
+  },
+  "hamMaddeIcerigiEkleBtn": {
+    "type": "css",
+    "value": "#MainContent_btnAdd"
+  },
+  "hamMaddeInput": {
+    "type": "css",
+    "value": ".rsbInput"
+  },
+  "hamMaddeList": {
+    "type": "xpath",
+    "value": "//ul[@class='rsbList']/li"
+  },
+  "hamMaddeIlacMiktarInput": {
+    "type": "css",
+    "value": "#ctl00_MainContent_rdRawMaterialAmount"
+  },
+  "hamMaddeIlacFiyatInput": {
+    "type": "css",
+    "value": "#ctl00_MainContent_rdRawMaterialPrice"
+  },
+  "secilenHamMaddelerDogrultusundaIlacEkleBtn": {
+    "type": "css",
+    "value": "#MainContent_btnAddMajistralMedicine"
+  },
+  "faturatarihisutunilk": {
+    "type": "xpath",
+    "value": "((//tbody)[4]/tr/td[8])[6]"
+  },
+  "faturanosutunilk": {
+    "type": "xpath",
+    "value": "((//tbody)[4]/tr/td[9])[6]"
+  },
+  "provizyontablocheckbox": {
+    "type": "xpath",
+    "value": "((//tbody)[4]/tr/td[13])[6]//input"
+  },
+  "esdegerilaclistilktik": {
+    "type": "id",
+    "value": "ctl00_MainContent_RadMedicineEquivalent_C_radGridMedicineEquivalent_ctl00_ctl04_lnkBtnSelect"
+  },
+  "provizyonuyarimesajkapatbtn": {
+    "type": "xpath",
+    "value": "//div[@id='upModalError']//button"
+  },
+  "foyOlusturmaFaturaNo": {
+    "type": "xpath",
+    "value": "(//tbody)[4]/tr/td[9]"
+  },
+  "foyOlusturmaInput": {
+    "type": "xpath",
+    "value": "(//tbody)[4]/tr/td[13]//input"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
